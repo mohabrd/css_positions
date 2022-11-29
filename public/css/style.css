@@ -5,19 +5,19 @@ body {
   /* Exo margin */
 
 section {
-    color: #4da6ff;
+    background-color: #4da6ff;
 }
 
 h2 {
     position: relative;
-    color: yellow;
+    background-color: yellow;
     border: 2px solid black;
     height: 300px;
     width: 300px;
 }
 
 section:nth-child(1) li:nth-child(4) {
-    margin-bottom: 50px;
+    margin: 50px;
 
 }
 
@@ -47,9 +47,57 @@ section:nth-child(2) h2:nth-child(5) {
   /* fin exo padding */
   
   /* exo display */
+
+section:nth-child(3) {
+    margin: 10%;
+    padding: 10%;
+
+}
+section:nth-child(3) h2{display: inline-block}
+section:nth-child(3) h2{display: inline}
+
+section:nth-child(3) h2:nth-child(4){
+    display: none;
+
+}
+
+
   /* fin exo display */
   
+
+
+
+
+  /* exo float */
+
+section:nth-child(4) {
+    overflow: auto;
+
+}
+section:nth-child(4) h2:nth-child(3) {
+    width: auto;
+    float: left;
+    z-index: 1;
+}
+section:nth-child(4) h2:nth-child(4) {
+    width: auto;
+    float: left;
+    z-index: 1;
+
+}
+
+
+
+
+  /* fin exo float */
+
+
   /* exo position */
+
+
+
+
+
   /* fin exo position */
   
   /* exo position (priorité) */
