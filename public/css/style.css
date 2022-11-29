@@ -1,11 +1,40 @@
 body {
     margin: 0
   }
-  
+
   /* Exo margin */
+
+  section {
+    color: #4da6ff;
+  }
+
+  h2 {
+    position: relative;
+    color: yellow;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+  }
+
+  section:nth-child(1) li:nth-child(4) {
+    margin-bottom: 50px;
+
+  }
+
+section:nth-child(1)  h2:nth-child(5) {
+    margin-left: 20%;
+}
+
+section:nth-child(1) h2:nth-child(7) {
+    margin: auto;
+
+}
+
   /* fin exo margin */
   
   /* exo padding */
+
+  
   /* fin exo padding */
   
   /* exo display */
